@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operaciones fisicas</title>
+	<link rel="stylesheet" type="text/css" href="css/esty.css">
+	<script src='js/javaly.js' language='Javascript'></script>
+</head>
+<body>
+	<div id="Operacion">
+		<h1 h11>Operaciones basicas de Fisica</h1>
+		<br>
+		<br>
+	<div class="contenedor">
+
+
+		
+		<div class="bx"> 
+			<h2 h21>Calcula Velocidad</h2>
+			<dd>
+			<p>la velocidad es la distancia recorrida por un objeto en la unidad de tiempo.</p>
+		    </dd>
+			<p>donde:</p>
+			<p>v=velocidad</p>
+			<p>d=distancia</p>
+			<p>t=tiempo</p>
+			<input type="button" name="velocidad" onclick="divide(12,6)" value="v=d/t"></button>
+			<div id="divide"></div>
+			<p>pudes probar aqui</p>
+            <p>escribe la distancia:</p>
+			<p><input type="text" name="distancia" id="distancia"></p>
+			<p>escribe el tiempo:</p>
+			<p><input type="text" name="tiempo" id="tiempo"></p>
+
+			<input type="button" name="velocidad" onclick="divideSinParametros()" value="la velocidad es"></button>
+		<div id="divideSinParametros"></div>	
+
+		</div>
+
+
+		<div class="bx"> 
+			<h3 h31>Calcula Aceleracion</h3>
+			<dd>
+			<p>La aceleracion es la magnitud fisica que mide la tasa de variacion de la velocidad respecto del tiempo.</p>
+		    </dd>
+			<p>formula:a=(Vo-Vi)/t</p>
+			<p>donde:</p>
+			<p>a=aceleracion</p>
+			<p>Vi=velocidad inicial y Vo=velocidad final</p>
+			<p>t=tiempo</p>
+			<p>puedes probar aqui:</p>
+			<p>escribe tu velocidad final:</p>
+			<p><input type="text" name="Vo" id="Vo"></p>
+			<p>escribe tu velocidad inicial:</p>
+			<p><input type="text" name="Vi" id="Vi"></p>
+			<p>escribe el tiempo:</p>
+			<p><input type="text" name="t" id="t"></p>
+			<input type="button" name="velocidad" onclick="aceleracionSinParametros()"value="la aceleracion es"></button>
+		<div id="aceleracionSinParametros"></div>
+		</div>
+
+
+		<div class="bx">
+			<h4 h41>calcula fuerza</h4>
+			<dd>
+		    <p>En fisica, la fuerza es una magnitud vectorial que mide la razon de cambio de momento lineal entre dos particulas o sistemas de particulas</p>
+		    </dd>
+		    <p>donde:</p>
+		    <p>F=fuerza</p>
+		    <p>m=masa</p>
+		    <p>a=aceleracion</p>
+		    <input type="button" name="fuerza" onclick="multiplica(25,3)" value="F=m*a"></button>
+			<div id="multiplica"></div>
+
+			<p>puedes probar aqui:</p>
+			<p>escribe la masa:</p>
+			<p><input type="text" name="m" id="m"></p>
+			<p>escribe la aceleracion:</p>
+			<p><input type="text" name="ac" id="ac"></p>
+
+			<input type="button" name="fuerza" onclick="fuerzaSinParametros()" value="la fuerza es"></button>
+		<div id="fuerzaSinParametros"></div>	
+		</div>
+
+		
+		<div class="bx">
+			<h5 h51>calcula tiempo</h5>
+			<dd>
+			<p>El tiempo es una magnitud fisica con que se mide la duracion o separacion de acontecimientos.</p>
+		    </dd>	
+		    <p>Formula: t=vo-vi/a</p>
+		    <p>donde:</p>
+		    <p>t=tiempo</p>
+		    <p>vo=velocidad final y vi=velocidad inicial</p>
+		    <p>a=aceleracion</p>
+		    <p>puedes probar aqui:</p>
+		    <p>escribe tu velocidad final:</p>
+			<p><input type="text" name="vo" id="vo"></p>
+			<p>escribe tu velocidad inicial:</p>
+			<p><input type="text" name="vi" id="vi"></p>
+			<p>escribe la aceleracion:</p>
+			<p><input type="text" name="acel" id="acel"></p>
+			<input type="button" name="tiempo" onclick="tiempoSinParametros()"value="el tiempo es"></button>
+		<div id="tiempoSinParametros"></div>
+		</div>
+
+
+		<div class="bx">
+			<h6 h61>calcula energia potencial</h6>
+			<dd>
+				<p>La energia potencial es un tipo de energia mecanica, que esta asociada con la relacion entre un cuerpo y un campo o sistema de fuerzas externo o interno</p>
+			</dd>
+			<p>donde:</p>
+			<p>Ep=energia potencial</p>
+			<p>m=masa</p>
+			<p>g=gravedad</p>
+			<p>h=altura</p>
+			<input type="button" name="energia cinetica" onclick="multi(2,8,3)" value="Ep=mph"></button>
+			<div id="multi"></div>
+
+			<p>puedes probar aqui:</p>
+			<p>escribe la masa:</p>
+			<p><input type="text" name="ms" id="ms"></p>
+			<p>escribe la gravedad:</p>
+			<p><input type="text" name="g" id="g"></p>
+			<p>escribe la altura:</p>
+			<p><input type="text" name="h" id="h"></p>
+
+			<input type="button" name="energiaP" onclick="energiapSinParametros()" value="la Ep es"></button>
+		<div id="energiapSinParametros"></div>
+		</div>
+
+
+		<div class="bx"> 
+			<h6 h71>calcula energia cinetica</h6>
+			<dd>
+				<p>la energia cinetica es la cantidad de trabajo necesario para acelerar un cuerpo de una masa determinada y en posicion de reposo, hasta alcanzar una velocidad determinada.</p>
+			</dd>
+			<p>Formula:Ec=mv^2/2</p>
+			<p>donde:</p>
+			<p>Ec=energia cinetica</p>
+			<p>m=masa</p>
+			<p>v=velocidad</p>
+			<p>puedes probar aqui:</p>
+			<p>escribe la masa:</p>
+			<p><input type="text" name="ma" id="ma"></p>
+			<p>escribe la velocidad:</p>
+			<p><input type="text" name="vl" id="vl"></p>
+
+			<input type="button" name="energiaC" onclick="energiacSinParametros()" value="la Ec es"></button>
+		<div id="energiacSinParametros"></div>
+		</div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>

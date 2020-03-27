@@ -1,0 +1,80 @@
+body{
+	background:#25304d;
+}
+*:root{
+	color:black;
+	font-size: 14pt;
+}
+h1[h11]{
+	font-size: 30pt;
+	color:#e07c2d;
+	font-family: Helvetica;
+}
+.contenedor{
+	width: 100%;
+	height: auto;
+	background:hsl(206, 43%, 47%);
+
+	/*add flexbox style*/	
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+
+}
+.bx{
+	width: 30%;
+	height: 690px;
+	background:hsl(206, 9%, 91%);
+	margin: 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+/*add responsive media quires*/
+@media screen and (max-width: 1200px){
+	.bx{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 600px){
+	.bx{
+		width: 90%;
+	}
+}
+h2[h21]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+h3[h31]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+h4[h41]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+h5[h51]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+h6[h61]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+h6[h71]{
+	font-size: 16pt;
+	font-family:'khmer MN';
+	color:#051b4e;
+}
+dd{
+	font-family:Franklin Gothic Medium;
+	font-size:11
+	pt;
+	color:rgb( 74, 53, 106);
+}
